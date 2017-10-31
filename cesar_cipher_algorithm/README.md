@@ -1,0 +1,17 @@
+## Cifrado César
+Crear una web que pida, por medio de un prompt(), una frase al usuario y devuelva el mismo mensaje encriptado según el algoritmo de cifrado césar, con el desplazamiento de 33 espacios hacia la derecha.
+
+Consideraciones específicas
+- El programa debe ser capaz de cifrar y descifrar tanto letras mayúsculas como minúsculas.
+ la fórmula para descifrar es: (x-n) % 26
+- El código debe estar compuesto por dos funciones con los siguientes nombres:
+cipher y decipher
+- El usuario no debe poder ingresar un campo vacío o que contenga números.
+
+## Pseudocódigo
+Inicio
+1. Crear una función que guarde los datos que ingresará el usuario por medio del prompt()
+2. Verificar que los datos ingresados, no sean números ni un campo vacío.
+
+
+x. Devolver el mensaje encriptado según el algoritmo de cifrado César
