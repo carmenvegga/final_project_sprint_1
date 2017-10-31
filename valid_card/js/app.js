@@ -33,4 +33,9 @@ var reverseOrder = function (enteredNumbers){
 }
 console.log(reverseOrder(enteredNumbers));
 
+//intentando con el método .reverse();
+var testArray = [];
+
+
+
 //var isValidCard = [];
