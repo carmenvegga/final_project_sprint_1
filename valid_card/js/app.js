@@ -7,17 +7,30 @@ Un campo vacío o espacio es un string */
   if (isNaN(numberCard) ) {
       alert("número inválido, intenta nuevamente");
   }
-  var enteredNumbers = [];
-  for (var i =  0; i < numberCard.length; i++){
+
+var enteredNumbers = [];
+
+for (var i =  0; i < numberCard.length; i++){
 //Devolviendo los caracteres de la cadena con charAt(), para rellenar el arreglo
     enteredNumbers.push(numberCard.charAt(i));
   }
 
+//pasar los elementos del array en orden inverso, por medio de una funcion reverse
+var reverseOrder = function (enteredNumbers){
 
+    var newNumbersPosition = [];
 
+    var size = enteredNumbers.length;
 
+    var lastPosition = size -1;
+//la última posición va a ser, el tamaño del array menos uno
+//en esta iteracion recorre desde la última posición hasta la posición cero.
+    for (var i = lastPosition; i >= 0; i --){
+
+        newNumbersPosition.push(enteredNumbers[i]);
+    }
+    return newNumbersPosition;
+}
+console.log(reverseOrder(enteredNumbers));
 
 //var isValidCard = [];
-
-/*numberCard.reverse();
-console.log(numberCard);*/
