@@ -19,3 +19,5 @@ Inicio
 - Crear una función que convierta el codigo Ascii a caracter, por medio del metodo String.fromCharCode()
 - Concatenar el caracter cifrado a un string
 - Retornar el string cifrado
+
+![Cesar Cipher](./assets/images/cesar-cipher.jpg)
