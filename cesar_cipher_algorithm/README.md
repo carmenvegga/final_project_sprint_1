@@ -12,6 +12,10 @@ cipher y decipher
 Inicio
 1. Crear una función que guarde los datos que ingresará el usuario por medio del prompt()
 2. Verificar que los datos ingresados, no sean números ni un campo vacío.
-
-
-x. Devolver el mensaje encriptado según el algoritmo de cifrado César
+3. Crear una función  que haga una iteración sobre cada caracter del string dado.
+4. Obtener el codigo Ascii del caracter por medio del método charCodeAt()
+5. Aplicar el cifrado César al caracter, con desplazamiento de 33 espacios
+6. Devolver el mensaje encriptado según el algoritmo de cifrado César.
+- Crear una función que convierta el codigo Ascii a caracter, por medio del metodo String.fromCharCode()
+- Concatenar el caracter cifrado a un string
+- Retornar el string cifrado
