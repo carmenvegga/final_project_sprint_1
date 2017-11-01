@@ -6,13 +6,13 @@ function cipher(string, n){
 
   //condición para verificar que los datos ingresados no sean número, ni campo vacío.
   if ( string != null){
-    for (var i = 0; i < string.legth; i++){
+      for (var i = 0; i < string.length; i++){
 
       /*este metodo devolverá el valor unicode, (que encaja con la codificación Ascii)
       del caracter en el indice proporcionado*/
-      var x = string.charCodeAt(i);
+        var x = string.charCodeAt(i);
       //fórmula para encontrar su ubicación en el alfabeto
-      var codeCipher = (x - n) % 26;
+        var codeCipher = (x - n) % 26;
 
       //aplicar el Cifrado César
 
