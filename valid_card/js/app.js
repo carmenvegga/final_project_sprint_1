@@ -12,8 +12,11 @@ var enteredNumbers = [];
 
 for (var i =  0; i < numberCard.length; i++){
 //Devolviendo los caracteres de la cadena con charAt(), para rellenar el arreglo.
+//charAt() devuelve el caracter especificado de una cadena, str.charAt(indice).
     enteredNumbers.push(numberCard.charAt(i));
   }
+console.log(enteredNumbers);
+
 
 //pasar los elementos del array en orden inverso, por medio de una función reverse..
 var reverseOrder = function (enteredNumbers){
@@ -33,9 +36,10 @@ var reverseOrder = function (enteredNumbers){
 }
 console.log(reverseOrder(enteredNumbers));
 
+
+
+
 //intentando con el método .reverse();
 var testArray = [];
-
-
 
 //var isValidCard = [];

@@ -1,5 +1,5 @@
 var initialPhrase = prompt("Ingresa la frase que deseas cifrar")
-
+var n = ""
 function cipher(string, n){
       var cipher = "";
   //cadena vacía porque aun no tiene valor asignado
